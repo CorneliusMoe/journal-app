@@ -1,7 +1,9 @@
 @import url(../../index.css);
 
 /* Header */
-
+header {
+  display: flex;
+}
 /* Auto layout */
 .header {
   display: flex;
@@ -10,9 +12,6 @@
   align-items: center;
   padding: 18px 16px;
   gap: 10px;
-
-  width: 368px;
-  height: 54px;
 
   /* water-10 */
 
@@ -27,7 +26,7 @@
 }
 
 /* JOURNAL */
-.header__title {
+.header--title {
   width: 74px;
   height: 18px;
 
