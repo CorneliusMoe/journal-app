@@ -1,0 +1,57 @@
+@import url(../../index.css);
+
+/* Header */
+
+/* Auto layout */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 16px;
+  gap: 10px;
+
+  width: 368px;
+  height: 54px;
+
+  /* water-10 */
+
+  background: var(--color-water-10);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* JOURNAL */
+.header__title {
+  width: 74px;
+  height: 18px;
+
+  /* Title
+
+Use for Titles
+*/
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  /* granite */
+
+  color: var(--color-granite);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
